@@ -1,4 +1,4 @@
-# Copyright (C) 2011-2012 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -11,12 +11,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-# Prebuilt libraries that are needed to build open-source libraries
-PRODUCT_COPY_FILES += \
-	vendor/samsung/celox/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
-	vendor/samsung/celox/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-	vendor/samsung/celox/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # Proprietary files
 PRODUCT_COPY_FILES += \
@@ -31,9 +25,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celox/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
 	vendor/samsung/celox/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
 	vendor/samsung/celox/proprietary/bin/mpdecision:system/bin/mpdecision.exec \
-	vendor/samsung/celox/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
-	vendor/samsung/celox/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
-	vendor/samsung/celox/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
 	vendor/samsung/celox/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
 	vendor/samsung/celox/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
 	vendor/samsung/celox/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
